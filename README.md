@@ -30,6 +30,15 @@ does [versions](https://getcomposer.org/doc/01-basic-usage.md#package-versions).
 
 See LICENSE.md for the [BSD-3-Clause](http://opensource.org/licenses/BSD-3-Clause) license.
 
+# References
+
+These are not necessarily supported or implemented. They are here as a reference
+for further reading.
+
+  - [RFC 822](http://www.rfc-editor.org/rfc/rfc822.txt)
+  - [RFC 2047](http://www.rfc-editor.org/rfc/rfc2047.txt)
+  - [RFC 2822](http://www.rfc-editor.org/rfc/rfc2822.txt)
+
 # TODO
 
 There is no security or safety features of any kind. These might not be a bad idea to add.
