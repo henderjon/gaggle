@@ -1,7 +1,7 @@
 # Gaggle
 
 Gaggle is an overly simplistic, insecure, and very feature-incomplete email
-library for creating a raw email messages.
+library for creating a raw email message.
 
 # Usage
 
