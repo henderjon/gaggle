@@ -32,6 +32,16 @@ class PlainMessage {
 		}
 	}
 	/**
+	 * allows internal access to headers
+	 * @param string $header The name of the header to get
+	 * @return mixed
+	 */
+	protected function getHeader($key){
+		$key = strtolower($key);
+		if(!array_key_exists($key, $this->headers)){ return null; }
+		return $this->headers[$key];
+	}
+	/**
 	 * method to set the message property
 	 * @param string $message The message
 	 * @return
