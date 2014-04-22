@@ -25,7 +25,7 @@ class SESMessage extends PlainMessage {
 		}
 
 		if($returnPath = $this->getHeader("return-path")){ // not required
-			$message["ReturnPath"] = (array)$returnPath;
+			$message["ReturnPath"] = $returnPath;
 		}
 
 		return $message;
